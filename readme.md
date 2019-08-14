@@ -1,6 +1,6 @@
-#My First Website with Django backend
+# My First Website with Django backend
 
-## <h1 style= "color:red">working </style>
+## <h1 style= "color:red">working </h1>
 
 >When some page request is done , server checks url.py in the main app's name folder.  
 it checks if there is any specific page or action mentioned for that url and executes that action or goes to that page
