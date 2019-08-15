@@ -74,3 +74,16 @@ the functions in it are actually the html pages and the functions call the pages
 That all about 404ERROR
 
  
+# code to make the album contain songs and all
+
+we pass album as context in the  render function of details.html and in the details page run and for loop to print the song names and {{album.attributes }}
+for respective attributes.  
+ 
+    <img src = "{{album.album_logo}}">
+    <h1> {{album.album_title}}</h1>
+    <h3>{{album.artist}}</h3>
+
+    {% for song in album.song_set.all %}
+    <li>{{song.song_title}} - {{song.file_type}}</li> 
+    {% endfor %}
+  

@@ -36,3 +36,9 @@ In [7]: song.song_title = 'I hate my boyfriend'
 In [9]: song.file_type = 'mp3'
 
 In [10]: song.save()
+
+
+#using create to do all steps in one step
+
+album1.song_set.create(song_title = 'I love bacon' , file_type = 'mp3')
+album1.song_set.create(song_title = 'Icecream' , file_type = 'mp3')
